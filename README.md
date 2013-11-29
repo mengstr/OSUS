@@ -1,7 +1,9 @@
 # OSUS
 ### Open Source USB Stack Tester Board
 
-OSUS will make life a bit easier by removing most of the parts required on the boards to be tested down to a master board. The test-boards basically only need a decoupling cap two and a 14 pin 0.1" pin header - that's it.
+When writing Open Source USB stacks the testing of all different version of mcu's and crystal speeds to make the right #defines and linker maps for the firmwares can be a bit tedious.
+
+OSUS will make life a bit easier by removing most of the parts required on the boards to be tested by moving the other parts to this master board. The test-boards basically only need a decoupling cap two and a 14 pin 0.1" pin header - that's it.
 
 On the OSUS master board there's a Reset button and .a extra button to be used for invoking the bootloader or just for general usage. There are also three status LEDs for simple debugging and a connector to a BusPirate LCD adapter for more involved stuff.
 
